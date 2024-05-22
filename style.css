@@ -1,0 +1,62 @@
+.home{  
+    width: 105%;
+    background-size: cover;
+    background-size: 105% 100%;
+    background-image: url('Auckland-home.avif');
+    margin-top: -8px;
+    margin-left:-8px;
+    padding-top:128px;
+    padding-bottom:384px;
+}
+
+.menubar{
+    width:fit-content;
+    float:center;
+    margin:auto;
+    padding-top:7.5px;
+    padding-bottom:7.5px;
+}
+.menubar ul{
+    list-style-type: none;
+    overflow:hidden;
+    padding-left: 0px;
+}
+
+.menubar a{
+    color:black;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 15px;
+    text-align:center;
+}
+
+.menubar a:hover{
+    background-color: black;
+    color :white;
+}
+
+.menubar li{
+    display:inline-block
+}
+
+ul.dropdown li{
+    display:block;
+    float: center;
+}
+
+ul.dropdown{
+    width:100%;
+    position:absolute;
+    z-index: 999;
+    display:none;
+}
+
+ul.dropdown a{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+li:hover ul.dropdown{
+    display: block; 
+}
+
