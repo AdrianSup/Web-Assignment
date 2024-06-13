@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            height: 55px;
+            align-items: center;
+        }
+        .sub_container{
+            display:inherit;
+            align-items: center;
+        }
+
+        #left{
+            width: 150px;
+            margin:10px
+        }
+
+        #center{
+            flex:1;
+            margin-right:20px
+        }
+
+        #right{
+            width:180px;
+        }
+
+        #search_bar{
+            display:flex;
+            align-items: center;
+            width:100%;
+            margin-right: 0px;
+        }
+
+        .icon_div{
+            width:23px;
+            margin:10px
+        }
+
+        #logo{
+            width:80px;
+        }
+
+        .search_input{
+            flex:1;
+            height: 28px;
+            width:100%;
+        }
+
+        #search_div{
+            display:flex;
+            justify-content: center;
+            background-color: rgb(241,241,241);
+            height: 32px;
+            width:50px;
+            margin-left:0px;
+            border: 1px black inset;
+            border-left:0px;
+        }
+
+        #search{
+            width:23px;
+        }
+
+        #microphone{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(241,241,241);
+            border-radius: 50%;
+            min-width:  23px;
+            max-width:  23px;
+            min-height: 23px;
+            max-height: 23px;
+            margin-left: 0;
+        }
+
+        #mic_icon{
+            max-width: 20px;
+        }
+
+        .profile_img{
+            width:100%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub_container" id="left">
+            <div class="icon_div" id="menu"><img src="hamburger-menu.svg" alt="" class="icon" id="menu_icon"></div>
+            <div class="icon_div" id="logo"><img src="youtube-logo.svg" alt="" class="icon" id="yt_icon"></div>
+        </div>
+        <div class="sub_container" id="center">
+            <div class="icon_div" id="search_bar">
+                <input type="text" class="search_input" placeholder="Search">
+                <div class="icon_div" id="search_div"><img src="search.svg" alt="" class="icon" id="search"></div>
+            </div>
+            <div class="icon_div" id="microphone"><img src="voice-search-icon.svg" alt="" class="icon" id="mic_icon"></div>
+        </div>
+        <div class="sub_container" id="right">
+            <div class="icon_div" id="video"><img src="upload.svg" alt="" class="icon"></div>
+            <div class="icon_div" id="apps"><img src="youtube-apps.svg" alt="" class="icon"></div>
+            <div class="icon_div" id="notif"><img src="notifications.svg" alt="" class="icon"></div>
+            <div class="icon_div" id="profile"><img src="10001.jpg" alt="" class="profile_img"></div>
+        </div>
+    </div>
+</body>
+</html>
