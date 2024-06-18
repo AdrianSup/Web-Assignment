@@ -25,10 +25,10 @@ body{
 
 .logo_div{
     min-width:  38px;
-    min-height: 38px;
+    min-height: 38px;   
     max-height: 38px;
     max-width:  38px;
-    margin-left: 10px;
+    margin:0 20px;
 }
 
 .logo_img{
@@ -47,11 +47,11 @@ body{
 }
 .menu_option{
     display:inline-block;
-    padding: 10px;
     background-color:#004052;
     text-align: center;
-    margin-left: 12px;
-    margin-right:12px;
+    margin-left: 5px;
+    margin-right:5px;
+    width:5rem;
 }
 
 .menu_option:hover{
@@ -62,10 +62,13 @@ body{
 }
 
 .menu_option a{
+    display: inline-block;
     color:white;
     font-size: 18px;
     text-decoration: none;
     text-align:center;
+    padding: 10px 0;
+    width:100%;
     }
 
 #bg{
@@ -224,6 +227,81 @@ body{
     margin:0 1%;
     display: inline-block;
     font-size: 2em;
-    
     min-width: 38px;
+}
+
+#tour_page_flex{
+    display: flex;
+    margin: 8px 0 0;
+    padding: 0 50px;
+}
+
+#form_container{
+    min-width: 300px;
+}
+
+.form_filter{
+    margin:45px 40px 0 ;
+    background-color: #264B56;
+    color:white;
+    padding:20px;
+}
+
+#tour_ads_container{
+    flex:1;
+    margin:25px 40px 0 0;
+}
+
+.tour_packs{
+    display: flex;
+    background-color: #3d5d71;
+    border-radius: 20px;
+    margin:20px 0 0;
+}  
+
+.tour_imgdiv{
+    min-width: 100px;
+    max-width: 200px;
+    
+    border-radius: 20px;
+    overflow:hidden;
+
+    margin: 0 20px 0 0;
+}
+
+.tour_img{
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.tour_desc{
+    flex:1;
+    color:white;
+}
+
+.tour_title{
+    margin:15px 0 0;
+}
+
+.tour_detail{
+    margin:10px 0 15px;
+}
+
+.tour_go{
+    min-width: 100px;
+    max-width: 150px;
+    position: relative;
+    color:white;
+}
+
+.buy_button{
+    padding:10px 15px;
+    border-radius: 10px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+
+    background-color: #264B56;
+    color:white;
+    border:none;
 }
