@@ -233,7 +233,7 @@ body{
 #tour_page_flex{
     display: flex;
     margin: 8px 0 0;
-    padding: 0 50px;
+    padding: 0 5%;
 }
 
 #form_container{
@@ -245,6 +245,21 @@ body{
     background-color: #264B56;
     color:white;
     padding:20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.form_filter *{
+    margin:5px
+}
+
+#price{
+    width:60px;
+    margin: 5px 0px 5px 0;
+}
+
+#duration_lbl{
+    margin:0;
 }
 
 #tour_ads_container{
@@ -304,4 +319,33 @@ body{
     background-color: #264B56;
     color:white;
     border:none;
+}
+
+@media (max-width:800px) {
+    .content{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form_filter{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #tour_page_flex{
+        flex-direction: column;
+    }
+
+    #tour_ads_container{
+        margin:0px;
+    }
+}
+
+@media (max-width:575px) {
+    .content{
+        grid-template-columns: 1fr ;
+    }
+
+    .form_filter{
+        grid-template-columns: 1fr;
+    }
 }
