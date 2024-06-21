@@ -321,6 +321,30 @@ body{
     border:none;
 }
 
+.about_container{
+    display:grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: space-around;
+}
+
+.profile{
+    display:flex;
+    max-width: 600px;
+}
+
+.profimg_div{
+    min-width: 200px;
+    max-width: 200px;
+    margin:20px;
+}
+
+.prof_img{
+    max-width: 100%;
+}
+
+
+
+
 @media (max-width:800px) {
     .content{
         grid-template-columns: 1fr 1fr;
