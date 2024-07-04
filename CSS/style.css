@@ -226,6 +226,7 @@ body{
 }
 
 .social_link{
+    color:white;
     margin:0 1%;
     display: inline-block;
     font-size: 2em;
@@ -360,6 +361,10 @@ body{
     width: 100%;
     max-height:100%
 
+}
+
+.profile div a{
+    color:black;
 }
 
 .complain_form_div{
